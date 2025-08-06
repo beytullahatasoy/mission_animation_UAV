@@ -1,27 +1,21 @@
-# 🛩️ Mission Animation for UAV
+# mission_animation_UAV
 
-This repository includes a set of Python scripts developed to simulate and animate UAV (Unmanned Aerial Vehicle) missions. The main goal is to visualize and test autonomous drone behavior in virtual environments such as **Gazebo** and **Mission Planner**.
+Bu proje, İnsansız Hava Araçlarının (İHA) belirlenen görevler doğrultusunda gerçekleştirdiği hareketlerin animasyon ve simülasyonunu gerçekleştirmek amacıyla geliştirilmiştir. Artun İHA Takımı bünyesinde yürütülen çalışmalar kapsamında ortaya çıkan bu betikler, farklı görev senaryolarını test etmek ve geliştirmek için kullanılmıştır.
 
-## About the Project
+## Proje Amacı
 
-The project was built during my time with the **Artun UAV Team** for the purpose of simulating task animations and testing mission logic before physical deployment.
+- İHA’nın iki sabit nokta (direk) arasında hareketini simüle etmek  
+- Görev yarıçapı, konum ve yön gibi parametreleri tanımlamak  
+- Farklı algoritmalarla görev mantığını denemek  
+- Gerçek donanıma geçmeden önce simülasyon ortamında test imkanı sunmak
 
-Each script is a versioned attempt to improve path logic, animation flow, and real-time testing support between two fixed poles.
 
-## 🎯 Objectives
+## Kullanılan Teknolojiler
 
-- Define fixed poles as mission coordinates (lat/lon)
-- Animate autonomous UAV movement between poles
-- Test logic using **Gazebo**, **Mission Planner**, and **SITL**
-- Implement and visualize circular and linear missions
-
-## Tech Stack & Libraries
-
-- **Python 3**
-- DroneKit
-- pymavlink
-- dronekit-sitl
-- Gazebo
-- Mission Planner
-- argparse, math, time, sys
-
+- Python 3  
+- DroneKit  
+- pymavlink  
+- dronekit-sitl  
+- Mission Planner  
+- Gazebo  
+- MAVProxy  
