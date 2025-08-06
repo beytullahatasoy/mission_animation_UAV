@@ -1,8 +1,8 @@
-# Mission Animation for UAV
+# 🛩️ Mission Animation for UAV
 
 This repository includes a set of Python scripts developed to simulate and animate UAV (Unmanned Aerial Vehicle) missions. The main goal is to visualize and test autonomous drone behavior in virtual environments such as **Gazebo** and **Mission Planner**.
 
-## About the Project
+## 🎯 About the Project
 
 The project was built during my time with the **Artun UAV Team** for the purpose of simulating task animations and testing mission logic before physical deployment.
 
