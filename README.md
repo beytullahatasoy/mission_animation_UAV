@@ -1,16 +1,15 @@
 # mission_animation_UAV
 
-Bu proje, İnsansız Hava Araçlarının (İHA) belirlenen görevler doğrultusunda gerçekleştirdiği hareketlerin animasyon ve simülasyonunu gerçekleştirmek amacıyla geliştirilmiştir. Artun İHA Takımı bünyesinde yürütülen çalışmalar kapsamında ortaya çıkan bu betikler, farklı görev senaryolarını test etmek ve geliştirmek için kullanılmıştır.
+This project was developed to perform the animation and simulation of the movements carried out by Unmanned Aerial Vehicles (UAVs) based on defined missions. These scripts, created within the scope of the work carried out by the Artun UAV Team, were used to test and improve different mission scenarios.
 
-## Proje Amacı
+## Project Purpose
 
-- İHA’nın iki sabit nokta (direk) arasında hareketini simüle etmek  
-- Görev yarıçapı, konum ve yön gibi parametreleri tanımlamak  
-- Farklı algoritmalarla görev mantığını denemek  
-- Gerçek donanıma geçmeden önce simülasyon ortamında test imkanı sunmak
+- Simulate the movement of the UAV between two fixed points (poles)  
+- Define parameters such as mission radius, position, and orientation  
+- Test mission logic using different algorithms  
+- Provide a testing environment in simulation before transitioning to real hardware  
 
-
-## Kullanılan Teknolojiler
+## Technologies Used
 
 - Python 3  
 - DroneKit  
